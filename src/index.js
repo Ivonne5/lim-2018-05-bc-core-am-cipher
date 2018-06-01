@@ -1,6 +1,6 @@
 //llamando a mis variables//
 let offset=document.getElementById("offset");
-let string=document.getElementById("string").toUpperCase();
+let string=document.getElementById("string");
 
 //generando evento para desencadenar la funcion cifrar//
 

@@ -2,6 +2,7 @@
     encode : (offset,string) => {
         //funcion que se ejecutara despues del click boton cifrar//
         //elementos HTML a trabajar//
+        string=string.toUpperCase();
         let resultPosition = "";
     
         //extraer letras del mensaje una a una//
@@ -17,6 +18,7 @@
     },
     decode : (offset,string)=>{
         //funcion que se ejecutara despues del click boton descifrar//
+        string=string.toUpperCase();
         let resultPosition="";
         //extraer letras del mensaje una a una//
         for(let i=0; i<string.length; i++){
