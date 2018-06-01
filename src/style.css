@@ -1,33 +1,54 @@
+body{
+background-image: url(https://media2.giphy.com/media/ELham0Mveox9e/giphy.gif);
+width: 110%;
+}
+header  {
+width: 100%;
+text-align: center;
+font-size: 250%;
+}
 .contenedor{
 width:50%;
 padding:2%;
-margin: 10% 20%;
-border-radius:6px ;
-background: #ccc;
+margin: 4% 20%;
+border-radius:10px ;
+background: #ffffff;
+font-family: Kavoon;
+color:#000;
+opacity: 0.5;
 }
 label{
 width:100%;
 margin:1% 0% 1% 0%;
-font-size: 30px;
+font-size: 25px;
 display: inline-block;
+color:#000;
 }
 input[type="number"]{
 width: 19%;
+border:10%;
+border-color: #00FF00;
 }
-input[type="submit"]{
+input[type="button"]{
 width:30%;
 padding: 2%;
 margin: 5% 10% 2% 8%;
 border-radius: 6%;
-background:#1668c4;
-font-size: 20px;
-color:#fff;
+background:#00FF00;
+font-size: 13px;
+color:#000;
 cursor: pointer;
+font-family: inherit;
 }
 textarea{
 width: 100%;
 max-width: 100%;
-heigth:120px;
 max-height: 120px;
 resize:vertical;
+border:2%;
+border-color: #00FF00;
+}
+footer{
+text-align: right;
+margin-top:3%;
 }
