@@ -13,9 +13,9 @@
         <form  id="formulario" >
         <!--cantidad de posiciones a desplazar-->
           <label for="offset">Nº espacios</label>
-          <input type="number" id="offset" maxlength="2" placeholder="max. 2 caracteres" >
+          <input type="number" id="offset" min ="1"  max ="33" placeholder="max. 2 caracteres" >
         <!--espacio de ingreso de texto -->
-          <label for="string" required>Ingrese mensaje :</label>
+          <label for="string">Ingrese mensaje :</label>
           <textarea id="string" placeholder="max 1500 caracteres" maxlength="1500"  ></textarea>
         <!--botones para <cambios-->
           <input type="button" id="encode" value="codifica" >
